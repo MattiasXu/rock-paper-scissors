@@ -58,7 +58,7 @@ html {
 .choice-buttons:focus {
     outline: transparent;
 }
-.alt {
+.alternative {
     margin: 0 20px 0 20px;
     max-width: 200px;
     height: auto;
