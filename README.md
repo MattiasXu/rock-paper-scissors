@@ -1,3 +1,5 @@
 # Rock, paper scissors game
 ## Made as a part of The Odin Project
-Expanding my web development knowledge further, now including JavaScript
+Just making sure I can do some basic JavaScript
+
+This was easier than the HTML + CSS from the Google replica homepage. Was a lot more similar to what I've been learning at uni.
