@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+h1 {
+    font-family: "Indie Flower";
+    font-size: 5em;
+    text-align: center;
+}
+html {
+    font-family: 'Amatic SC';
+}
+
+#result-display {
+    text-align:center;
+    font-size: 40px;
+}
+
+#scoreboard {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#hands {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 300px;
+}
+
+#result-display {
+    display: block;
+}
+
+#choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.choice-buttons {
+    border-radius: 24px;
+    background: transparent;
+    border-style: solid;
+    border-color: #f2f2f2;
+    padding: 6px 25px 6px 25px;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    font-size: 2em;
+    font-family: "Amatic SC";
+}
+
+.choice-buttons:hover {
+    padding: 7px 26px 7px 26px;
+    margin: 0px 9px 0px 9px;
+    border-color: #c6c6c6;
+}
+
+.choice-buttons:focus {
+    outline: transparent;
+}
+.alt {
+    margin: 0 20px 0 20px;
+    max-width: 200px;
+    height: auto;
+    opacity: 0;
+    order: 3;
+    flex: 1 1 0;
+    transition: all 1s ease;
+}
+
+.show-first {
+    order: 1;
+    opacity: 1;
+}
+
+.show-second {
+    order: 2;
+    opacity: 1;
+}
